@@ -4,5 +4,7 @@ O que eu vou aprender na Trybe:
  - Git
  - HTML5
  - CSS3
- - JavaScript - Kanban
+ - JavaScript 
+ - Kanban
  - Scrum
+ - Python
