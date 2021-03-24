@@ -1,11 +1,8 @@
-let a = 4;
-let b = 10;
+let num1 = 10; 
+let num2 = 9;
 
-let soma = a + b;
-console.log(soma);
-let subtracao = a - b;
-console.log(subtracao);
-let multiplcacao = a * b;
-console.log(multiplcacao);
-let divisao = a / b;
-console.log(divisao);    
+if (num1 > num2) {
+    console.log(num1);
+} else {
+    console.log(num2);
+}
