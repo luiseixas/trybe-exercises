@@ -1,14 +1,23 @@
 body {
-    background-color: rgb(3, 3, 3);
-    color: cornsilk;
-    font-family:  fantasy;
+    background-color: rgb(26, 16, 16);
+    color: rgb(238, 238, 230);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 header {
     background-image: url(https://mega.ibxk.com.br/2013/4/materias/9617134910122215.jpg?ims=610x);
     background-size: cover;
     background-position: 50% 25%;
-    padding: 60px 30px 40px;
+    padding: 30px 30px 40px;
+    margin-bottom: 10px;
+}
+
+main {
+    display: inline;
+}
+
+h1 {
+    font-size: 50px;
 }
 
 td {
@@ -20,3 +29,57 @@ li {
     list-style: none;
     display: inline-block;
 }
+
+aside {
+    padding: 10px;
+    border: 2px solid red;
+    width: 30%;
+    display: inline-block;
+    
+}
+
+nav {
+    display: inline-block;
+    margin-left: 800px;
+        
+}
+
+
+#description {
+    width: 50%;
+    text-align: justify;
+    border: 2px solid red;
+    margin-left: 20px;
+    display: inline-block;
+    padding: 20px;
+
+}
+
+#description-section {
+    border: rgb(235, 234, 234) 2px solid;
+}
+
+.curiosity {
+    width: 50%;
+    margin-left: 20px;
+    text-align: justify;
+    border: 2px solid red;
+    padding: 20px;
+}
+
+#curiosity-section {
+    border: solid 2px rgb(243, 239, 239);
+    margin-top: 10px;
+   
+}
+
+h2 {
+    margin-left: 20px;
+}
+
+table {
+    border: rgb(235, 234, 234) solid 2px;
+}
+
+
+
