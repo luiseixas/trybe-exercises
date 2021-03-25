@@ -47,6 +47,17 @@ console.log(menorNum);
 let numberList = [];
 for (let i = 1; i <= 25; i +=1){
     numberList.push(i)
+    
+}
+console.log(numberList);
+
+
+for (let i = 0; i < numberList.length; i+=1){
+     console.log(numberList[i] / 2) 
 }
 
-console.log(numberList);
+
+
+
+
+
