@@ -4,9 +4,15 @@ console.log(numbers);
 
 let soma = 0;
 let media = 0;
-for (i = 0; i < numbers.length; i +=1) {
+for (i = 0; i < numbers.length; i+=1) {
     soma = numbers[i] + soma;
     media = (soma / numbers.length)  
 }
 console.log(soma);
 console.log(media);
+
+if (media > 20) {
+    console.log('valor maior que 20')
+} else {
+    console.log('valor menor que 20')
+}
