@@ -34,3 +34,12 @@ for (let i = 0; i < numbers.length; i += 1){
     }
 }
 console.log(qtdOddNumber);
+
+let menorNum = numbers[0];
+for (let i = 0; i < numbers.length; i += 1){
+    
+    if (numbers[i] < menorNum) {
+      menorNum = numbers[i];
+   }
+}
+console.log(menorNum);
