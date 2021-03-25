@@ -16,3 +16,20 @@ if (media > 20) {
 } else {
     console.log('valor menor que 20')
 }
+
+let maiorNum = 0;
+for (let i = 0; i < numbers.length; i += 1){
+    
+    if (numbers[i] > maiorNum) {
+      maiorNum = numbers[i];
+   }
+}
+console.log(maiorNum);
+
+let qtdOddNumber = 0;
+for (let i = 0; i < numbers.length; i += 1){
+    if(numbers[i] % 2 == 1){
+        qtdOddNumber += 1;
+    }
+}
+console.log(qtdOddNumber);
