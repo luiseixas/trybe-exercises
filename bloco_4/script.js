@@ -7,3 +7,12 @@ for (let i = 0; i < n; i+=1){
     }
     console.log(linha)
 }
+
+let row = '';
+for (let i = 0; i < n; i+=1) {
+    row += '*';
+    console.log(row);
+}
+
+
+
