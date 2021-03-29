@@ -14,5 +14,13 @@ for (let i = 0; i < n; i+=1) {
     console.log(row);
 }
 
+let rowInverse = '';
+let linhas = '';
+for (let j = 0; j < n-1; j+=1){
+    linhas += ' ';
+}
 
-
+for (let i = 0; i < n; i+=1) {
+    rowInverse += '*';
+    console.log(linhas.substr(i) + rowInverse);
+}
